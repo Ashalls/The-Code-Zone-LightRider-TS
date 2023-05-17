@@ -24,7 +24,7 @@ enum Directions {
     RIGHT = 90
 }
 
-class Bike extends BaseSprite {
+abstract class Bike extends BaseSprite {
     public speed = 50;
     public trailColour: Colours;
     private spawnPos: number[];
